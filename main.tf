@@ -38,11 +38,3 @@ data "aws_ami" "amazon_linux" {
 }
 
 # Create an AWS EC2 instance
-resource "aws_instance" "amazon_linux_vm" {
-  ami           = data.aws_ami.amazon_linux.id
-  instance_type = "t2.micro"
-
-  tags = {
-    Name = "AmazonLinux2023-VM1"
-  }
-}
