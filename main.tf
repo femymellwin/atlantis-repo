@@ -43,6 +43,6 @@ resource "aws_instance" "amazon_linux_vm" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "AmazonLinux2023-VM"
+    Name = "AmazonLinux2023-VM1"
   }
 }
