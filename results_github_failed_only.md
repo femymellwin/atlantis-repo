@@ -1,5 +1,8 @@
 ### Terraform Scan Results:
 
+---
+This scan result is for /home/ec2-user/tfe/main-1.tf
+---
 ```
 Passed Checks: 4, Failed Checks: 4, Skipped Checks: 0
 ```
